@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+.waitlist-main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url("./assets/netwrk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.waitlist-main > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.waitlist-main > div > img {
+  height: 55vh;
+  margin: 30px;
+}
+
+.waitlist-main > div > div {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.waitlist-main > div > div > h1 {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#waitlist-input-1 {
+  border: none;
+  background: none;
+  outline: none;
+  background:#fff1de;
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#waitlist-input-1::placeholder {
+  color: black;
+}
+
+#waitlist-input-2 {
+  border: none;
+  background: none;
+  outline: none;
+  background:#fff1de;
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#waitlist-input-2::placeholder {
+  color: black;
+}
+
+.waitlist-main > div > div > button {
+  border: 1px solid white;
+  background: black;
+  outline: none;
+  width: 70%;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+}
+
+.successfully-submitted {
+  width: 80vw;
+  font-weight: 400;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+
+#waitlist-phone > img {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  height: 9vh;
+}
+
+#waitlist-phone {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background:url("./assets/netwrk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: rgb(20, 20, 20)!important;
+  color: white!important;
+}
+
+#waitlist-phone > div {
+  width: 70vw;
+  text-align: center;
+}
+
+#waitlist-phone > div > h1 {
+  font-size: 4vh;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family:"Inter";
+  line-height: 120%;
+}
+
+#waitlist-phone > div > input {
+  background: rgb(46, 46, 46);
+  padding: 15px;
+  padding-left: 20px;
+  color: white;
+}
+
+#waitlist-phone > div > input::placeholder {
+  color: white;
+}
+
+
+#waitlist-phone {
+  display: none;
+}
+
+
+@media only screen and (max-width:750px) {
+  .waitlist-main > div {
+    display: block;
+  }
+
+  #waitlist-normal {
+    display: none;
+  }
+
+  #waitlist-phone {
+    display: flex;
+  }
+
+  .successfully-submitted {
+    border-bottom: 0px;
+  }
+}

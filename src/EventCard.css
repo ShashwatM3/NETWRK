@@ -1,0 +1,55 @@
+#name-card {
+  display: flex;
+  align-items: flex-end;
+}
+
+#name-card > div {
+  position: relative;
+  color: white;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  font-family: "Instrument Sans", sans-serif;
+  text-align: left;
+}
+
+#name-card > div > h1 {
+  font-size: 4vh;
+  font-weight: bolder;
+  line-height: 110%;
+  margin-bottom: 15px;
+}
+
+#name-div > div > h3 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#card-content-hidden {
+  position: fixed;
+  top: 30px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  animation: slideIn 0.5s;
+}
+
+#card-content-hidden > div {
+  width: 93vw;
+  height: 100vh;
+}
+
+@keyframes slideIn {
+  from {
+    top: -100vh;
+  } to {
+    top: 30px;
+  }
+}
+
+#description {
+  display: none;
+}

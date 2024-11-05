@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* .start-screen-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("./assets/banner.png");
+  background-size: cover;
+  color: white!important;
+}
+
+.start-screen-main > div > img {
+  height: 50vh;
+  margin-right: -10px;
+}
+
+.start-screen-main > div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.start-screen-main > div > h1 {
+  margin: 0;
+  padding: 0;
+  padding-top: 0px;
+  padding-bottom: 80px;
+  width: 70%;
+  font-size: 5vh;
+  text-align: left;
+  line-height: 130%;
+}
+
+.start-screen-main > div > h3 {
+  font-size: 5vw;
+  font-weight: 400;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.start-screen-main > div > button {
+  background: white;
+  width: 70%;
+  padding: 20px;
+  border-radius: 18px;
+  color: black;
+  font-size: 4.5vw;
+  font-weight: 500;
+  border: none;
+  outline: none;
+} */
+
+#signup-main {
+  display: none;
+}
